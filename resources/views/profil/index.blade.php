@@ -18,7 +18,7 @@
                                     <label for="yourName" class="form-label">Nama Kamu</label>
                                     <input type="text" name="name" class="form-control" id="yourName"
                                         value="{{ auth()->user()->name }}" required>
-                                    <div class="invalid-feedback">Please, enter Nama Kamu!</div>
+                                    <div class="invalid-feedback">Please, Masukkan Nama Kamu!</div>
                                 </div>
 
                                 <div class="col-12">
